@@ -2,6 +2,7 @@
   <div class="row">
     <div class="col-12">
       <div class="hello">
+        <b-alert class="alert-banner" show variant="danger"> Der Anmeldeschluss ist schon bald. Bitte melde dich spätestens bis am <strong>20. Oktober 2021 <a href="#/anmeldung" class="alert-link">hier</a> an</strong>.</b-alert>
         <h1>Wir heiraten in:</h1>
         <h2>{{ days }} Tagen und {{ hours }}:{{ minutes }}:{{ seconds }} </h2>
         <h4>22. Januar 2022</h4>
@@ -111,6 +112,10 @@ export default {
   text-align: center;
 }
 
+.alert-banner {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 
 </style>

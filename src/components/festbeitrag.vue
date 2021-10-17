@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
         <div class="col-12">
-            <h3>Anmeldung</h3>
+            <h3>Anmeldung Festbeitrag</h3>
             <p>Dieses Formular dient der Anmeldung eines Beitrags am Fest (für Geladene) oder eines Spaliers (nach kirchlicher Trauung). Die teilnehmenden Personen sind gebeten, trotzdem das <a href="#/anmeldung">Anmeldeformular</a> auszufüllen. <br><br>
             Bei Fragen zu den Beiträgen, wende dich bitte direkt an die Trauzeugen: <a href="mailto:trauzeugen@mirjam-marius.ch" target="_blank"> trauzeugen@mirjam-marius.ch</a> / Chantal Wildhaber 079 463 76 83 / Bernhard Tschanz 076 592 93 33</p>
 

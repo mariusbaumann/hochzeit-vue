@@ -2,6 +2,7 @@
   <div class="container">
     <div class="row">
         <div class="col-12">
+            <b-alert class="alert-banner" show variant="danger"> Der Anmeldeschluss ist schon bald. Bitte melde dich spätestens bis am <strong>20. Oktober 2021 an</strong>.</b-alert>
             <h3>Anmeldung</h3>
             <p>Wir können leider noch nicht abschätzen, wie die Covid-19-Situation im Januar sein wird. Die Wahrscheinlichkeit ist gross, dass bei unserer Hochzeit die Zertifikatspflicht gilt. Daher bitten wir dich, dich über dieses 
                 Anmeldeformular anzumelden. So können wir dich kurz vor unserer Hochzeit genauer informieren. Melde dich bitte auch für die kirchliche Trauung und den Apero an.</p>
@@ -65,7 +66,7 @@
             <h4> Weitere Angaben</h4>
             <div class="row">
                 <div class="col-12 ">
-                    <b-form-group id="fieldset-8" description="" label="Anzahl Personen die mit mir mitkommen (Familienmitglieder)"  label-for="input-8" :invalid-feedback="personCountInvalidMsg" >
+                    <b-form-group id="fieldset-8" description="Gib die Anzahl zusätzlicher Personen an, ohne dich selbst mitzuzählen." label="Anzahl zusätzliche Personen, die mit mir mitkommen (z.B. Familienmitglieder, Freundin, Partner)"  label-for="input-8" :invalid-feedback="personCountInvalidMsg" >
                         <b-form-input id="input-8" type="number" v-model="personCount"  trim></b-form-input>
                     </b-form-group>
                 </div>
