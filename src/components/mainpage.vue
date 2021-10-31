@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-12">
       <div class="hello">
-        <b-alert class="alert-banner" show variant="danger"> Der Anmeldeschluss ist schon bald. Bitte melde dich spätestens bis am <strong>20. Oktober 2021 <a href="#/anmeldung" class="alert-link">hier</a> an</strong>.</b-alert>
+        
         <h1>Wir heiraten in:</h1>
         <h2>{{ days }} Tagen und {{ hours }}:{{ minutes }}:{{ seconds }} </h2>
         <h4>22. Januar 2022</h4>
@@ -36,14 +36,14 @@
     </div>
     <div class="row">
       <div class="col-12 col-md-6" align="center">
-        <b-img v-bind="mainProps" src="/img/BernhardTschanz.JPG" rounded="circle" alt="Circle image" class="cust-person-img"></b-img>
+        <b-img  src="/img/BernhardTschanz.JPG" rounded="circle" alt="Circle image" class="cust-person-img"></b-img>
         <br><br>
         <h4>Bernhard Tschanz</h4>
         <p class="box">Bernhard Tschanz hat mehrere Jahre mit Marius die Gruppenleiter-Ausbildung der Jungschar EMK geleitet. Er arbeitet bei der Post auf der Paketbasis.</p>
       </div>
       <div class="col-12 col-md-6 " align="center">
         
-        <b-img v-bind="mainProps" src="/img/ChantalWildhaber.jpg" rounded="circle" alt="Circle image" class="cust-person-img"></b-img>
+        <b-img src="/img/ChantalWildhaber.jpg" rounded="circle" alt="Circle image" class="cust-person-img"></b-img>
         <br><br>
         <h4>Chantal Wildhaber</h4>
         <p class="box">Chantal Wildhaber ist seit vielen Jahren eine Freundin von Mirjam. Sie ist als Missionarskind aufgewachsen. Bereits zu dieser Zeit fand ein Briefwechsel zwischen den beiden statt. Sie besucht ebenfalls die EMK Hombrechtikon und arbeitet als Ergotherapeutin.</p>

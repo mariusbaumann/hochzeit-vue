@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
         <div class="col-12">
-            <b-alert class="alert-banner" show variant="danger"> Der Anmeldeschluss ist schon bald. Bitte melde dich spätestens bis am <strong>20. Oktober 2021 an</strong>.</b-alert>
+            <b-alert class="alert-banner" show variant="danger"> Der Anmeldeschluss für geladene Gäste ist vorbei. Anmeldungen von Gästen für Kirche und Apéro nehmen wir weiterhin gerne entgegen.</b-alert>
             <h3>Anmeldung</h3>
             <p>Wir können leider noch nicht abschätzen, wie die Covid-19-Situation im Januar sein wird. Die Wahrscheinlichkeit ist gross, dass bei unserer Hochzeit die Zertifikatspflicht gilt. Daher bitten wir dich, dich über dieses 
                 Anmeldeformular anzumelden. So können wir dich kurz vor unserer Hochzeit genauer informieren. Melde dich bitte auch für die kirchliche Trauung und den Apero an.</p>
@@ -80,7 +80,9 @@
             <div v-if="geladenStatus">
             <hr>
             <h4> Geladen</h4>
-           
+            <b-alert class="alert-banner" show variant="danger"> Der Anmeldeschluss für geladene Gäste ist vorbei. Bitte wende dich per Mail ans Brautpaar <a href="mailto:brautpaar@mirjam-marius.ch">brautpaar@mirjam-marius.ch</a></b-alert>
+
+           <!--
             <div class="row">
                 <div class="col-12 col-md-6">
                     <b-form-checkbox id="checkbox-2" v-model="mitfahrStatus" name="checkbox-2">
@@ -120,6 +122,7 @@
                     </b-form-checkbox>
                 </div>
             </div>
+            -->
             </div>
             <br>
             </div>
