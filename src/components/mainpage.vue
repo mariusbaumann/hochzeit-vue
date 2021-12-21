@@ -1,8 +1,9 @@
 <template>
   <div class="row">
     <div class="col-12">
+      
       <div class="hello">
-        
+        <div><b-alert class="alert-banner" show variant="danger">Bitte beachte die neuen <b-button class="corona-button" block variant="primary" @click="navigateCorona"> Corona-Massnahmen</b-button></b-alert></div>
         <h1>Wir heiraten in:</h1>
         <h2>{{ days }} Tagen und {{ hours }}:{{ minutes }}:{{ seconds }} </h2>
         <h4>22. Januar 2022</h4>
@@ -54,6 +55,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'Mainpage',
   props: {
@@ -96,7 +98,10 @@ export default {
       this.seconds = resultseconds > 9 ? resultseconds : "0" + resultseconds;
 
       
-    }
+    },
+    navigateCorona: function() {
+      this.$router.push('coronamassnahmen');
+    },
   },
   created: function () {
       this.countDownTimer()
@@ -117,5 +122,9 @@ export default {
   margin-right: 10px;
 }
 
+.corona-button{
+  width: auto;
+  margin: auto;
+}
 
 </style>

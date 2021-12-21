@@ -3,9 +3,8 @@
     <div class="row">
         <div class="col-12">
             <b-alert class="alert-banner" show variant="danger"> Der Anmeldeschluss für geladene Gäste ist vorbei. Anmeldungen von Gästen für Kirche und Apéro nehmen wir weiterhin gerne entgegen.</b-alert>
-            <h3>Anmeldung</h3>
-            <p>Wir können leider noch nicht abschätzen, wie die Covid-19-Situation im Januar sein wird. Die Wahrscheinlichkeit ist gross, dass bei unserer Hochzeit die Zertifikatspflicht gilt. Daher bitten wir dich, dich über dieses 
-                Anmeldeformular anzumelden. So können wir dich kurz vor unserer Hochzeit genauer informieren. Melde dich bitte auch für die kirchliche Trauung und den Apero an.</p>
+            <h3>Anmeldung/Abmeldung</h3>
+            <p>Wir bitten dich, dich über dieses Anmeldeformular anzumelden. So können wir dir kurz vor unserer Hochzeit wichtige Informationen per Mail schicken. Weitere Infos zu den Corona-Massnahmen findest du <a href="#/coronamassnahmen">hier.</a></p>
 <div v-if="!submitted">
                   <b-form-group label="" v-slot="{ ariaDescribedby }">
       <b-form-radio v-model="abmeldenSelected" :aria-describedby="ariaDescribedby" name="some-radios" value="Anmelden" >Ich melde mich an</b-form-radio>
@@ -136,7 +135,10 @@
             <br>
             <br>
         </div>
-        <p v-if="submitted" class="alert alert-success">Deine Anmeldung wurde gespeichert! Wir haben dir ein E-Mail zur Erinnerung geschickt.</p>
+        <div v-if="submitted">
+            <p v-if="abmeldenSelected == 'Anmelden'" class="alert alert-success">Deine Anmeldung wurde gespeichert! Wir haben dir ein E-Mail zur Erinnerung geschickt.</p>
+            <p v-if="abmeldenSelected == 'Abmelden'" class="alert alert-success">Deine Abmeldung wurde gespeichert! Wir haben dir ein E-Mail zur Erinnerung geschickt.</p>
+        </div>
         </div>
         
     </div>
