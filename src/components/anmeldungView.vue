@@ -259,7 +259,7 @@ export default {
       var counter = 0;
       this.data.data.forEach(element => {
         if (element.abmeldung == 0) {
-          counter = counter + parseInt(element.anz_personen) + 1
+          counter = counter + parseInt(element.anz_personen) + 1;
         }
       });
       return counter;
