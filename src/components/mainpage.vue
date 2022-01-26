@@ -3,7 +3,7 @@
     <div class="col-12">
       
       <div class="hello">
-        <h1>Wir haben geheiratet seit:</h1>
+        <h1>Wir sind verheiratet seit:</h1>
         <h2>{{ days }} Tagen und {{ hours }}:{{ minutes }}:{{ seconds }} </h2>
         <h4>22. Januar 2022</h4>
       </div>
