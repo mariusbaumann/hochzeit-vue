@@ -3,8 +3,7 @@
     <div class="col-12">
       
       <div class="hello">
-        <div><b-alert class="alert-banner" show variant="danger">Bitte beachte die neuen <b-button class="corona-button" block variant="primary" @click="navigateCorona"> Corona-Massnahmen</b-button></b-alert></div>
-        <h1>Wir heiraten in:</h1>
+        <h1>Wir haben geheiratet seit:</h1>
         <h2>{{ days }} Tagen und {{ hours }}:{{ minutes }}:{{ seconds }} </h2>
         <h4>22. Januar 2022</h4>
       </div>
@@ -75,7 +74,7 @@ export default {
   methods: {
     countDownTimer: function() {
       var now = new Date();
-      var distance = this.end - now;
+      var distance = (this.end - now)*-1;
 
       var days = distance / 1000 / 60 / 60 / 24;
       var resultdays = Math.floor(distance / 1000 / 60 / 60 / 24 );

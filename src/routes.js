@@ -11,6 +11,7 @@ import Festbeitrag from './components/festbeitrag.vue'
 import Ort from './components/ort.vue'
 import AnmeldungView from './components/anmeldungView.vue'
 import coronamassnahmen from './components/coronamassnahmen.vue'
+import video from './components/video.vue'
 
 const routes = [
     {
@@ -40,6 +41,10 @@ const routes = [
     {
         path: '/coronamassnahmen',
         component: coronamassnahmen
+    },
+    {
+        path: '/video',
+        component: video
     },
 
 

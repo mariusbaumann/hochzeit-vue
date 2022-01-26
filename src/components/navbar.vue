@@ -8,11 +8,8 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#/ort">Trauung</b-nav-item>
-        <b-nav-item href="#/anmeldung">Anmeldung/Abmeldung</b-nav-item>
         <b-nav-item href="#/wunschliste">Wunschliste</b-nav-item>
-        <b-nav-item href="#/festbeitrag" >Anmeldung Beitrag</b-nav-item>
-        <b-nav-item href="#/coronamassnahmen" >Corona-Massnahmen</b-nav-item>
+        <b-nav-item href="#/video">Video Trauung</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
